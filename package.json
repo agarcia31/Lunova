@@ -1,0 +1,24 @@
+{
+  "name": "lunova",
+  "version": "1.0.0",
+  "description": "Lunova web application framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarcia31/Lunova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agarcia31/Lunova/issues"
+  },
+  "homepage": "https://github.com/agarcia31/Lunova#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  }
+}
