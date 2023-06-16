@@ -3,7 +3,7 @@ import * as http from 'http';
 
 // ------------ Create a class named Luna, with a constructor that just prints "Hello world"
 
-export default class Lunova {
+export class Lunova {
     server
     routes = {}
 
@@ -50,6 +50,3 @@ export default class Lunova {
         this.server.listen(port, '0.0.0.0', callback()); 
     }
 }
-
-
-  

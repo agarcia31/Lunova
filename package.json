@@ -1,9 +1,10 @@
 {
   "name": "lunova",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Lunova web application framework",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "prepublish": "babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
